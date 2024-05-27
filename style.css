@@ -119,3 +119,40 @@ h1 {
     font-weight: bold;
     text-align: right;
 }
+
+.actionContainer {
+    padding: 5em 3em;
+}
+
+.callToAction {
+    background-color: #3882F6;
+    margin: 0 auto;
+    max-width: 1000px;
+    border-radius: 5px;
+    padding: 2em 1em;
+}
+
+.callToAction .spacing {
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3%;
+    padding: .5em 3em;
+}
+
+.callToAction .words h3 {
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.callToAction button {
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid #F9FAF8;
+    padding: 6px 25px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 1em 0;
+}
