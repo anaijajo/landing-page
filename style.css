@@ -156,3 +156,10 @@ h1 {
     border-radius: 5px;
     margin: 1em 0;
 }
+
+footer {
+    text-align: center;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 2em 3em;
+}
