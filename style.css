@@ -3,10 +3,16 @@ body {
     font-family: sans-serif;
 }
 
+h1 {
+    font-size: 32px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
 .hero {
     background-color: #1F2937;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
 }
 
 .logo {
@@ -16,15 +22,15 @@ body {
 }
 
 .navLinks {
-    font-size: 18px;
+    font-size: 14px;
     color: #E5E7EB;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-.words {
-    font-size: 18px;
+.words p {
+    font-size: 14px;
     color: #E5E7EB;
 }
 
@@ -41,12 +47,53 @@ body {
     margin: 0 auto;
 }
 
-.navigation div, .siteInfo div {
+.navigation div, .siteInfo div, .infoImages div {
     flex: 1;
 }
 
 .siteInfo {
     gap: 5%;
-    padding-bottom: 7em;
-    padding-top: 4em;
+    padding-bottom: 6em;
+    padding-top: 3em;
+}
+
+.words button {
+    background-color: #3882F6;
+    color: white;
+    padding: 6px 25px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.infoImages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    gap: 5%;
+}
+
+.infoImages div p {
+    text-align: center;
+}
+
+.infoImages div img {
+    border-radius: 5px;
+    border: 2px solid #3882F6;
+}
+
+.randomInfo {
+    max-width: 800px;
+    padding: 3em 5em;
+}
+
+.randomInfo h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding-bottom: 10px;
 }
