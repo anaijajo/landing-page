@@ -23,11 +23,16 @@ body {
     justify-content: space-evenly;
 }
 
+.words {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .navLinks p {
     text-align: right;
 }
 
-.navigation {
+.navigation, .siteInfo {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -36,6 +41,12 @@ body {
     margin: 0 auto;
 }
 
-.navigation div {
+.navigation div, .siteInfo div {
     flex: 1;
+}
+
+.siteInfo {
+    gap: 5%;
+    padding-bottom: 7em;
+    padding-top: 4em;
 }
