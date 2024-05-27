@@ -5,12 +5,13 @@ body {
 
 .hero {
     background-color: #1F2937;
-    padding-left: 4em;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 .logo {
     font-size: 24px;
-    font-weight: bold;
+    font-weight:bolder;
     color: #F9FAF8;
 }
 
@@ -22,11 +23,17 @@ body {
     justify-content: space-evenly;
 }
 
+.navLinks p {
+    text-align: right;
+}
+
 .navigation {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .navigation div {
