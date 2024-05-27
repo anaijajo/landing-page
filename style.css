@@ -1,0 +1,34 @@
+body {
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero {
+    background-color: #1F2937;
+    padding-left: 4em;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.navLinks {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation div {
+    flex: 1;
+}
